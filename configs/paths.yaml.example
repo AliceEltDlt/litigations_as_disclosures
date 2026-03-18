@@ -1,0 +1,18 @@
+# Data directory configuration
+# Copy this file to paths.yaml and update paths for your system
+#
+# All paths support ~ expansion for home directory
+
+litigation_data: "~/Google Drive/Mon Drive/Litigations/Litigation data/"
+hand_collected: "~/Google Drive/Mon Drive/Litigations/Hand collected data/"
+compustat: "~/Google Drive/Mon Drive/Litigations/Compustat data/"
+trucost: "~/Google Drive/Mon Drive/Litigations/Trucost data/"
+epa: "~/Google Drive/Mon Drive/Litigations/EPA data/"
+cdp: "~/Dropbox/CDP Data/"
+patents: "~/Google Drive/Mon Drive/Litigations/Patent data/"
+institutional_investors: "~/Google Drive/Mon Drive/Litigations/Institutional Investors/"
+complaints: "~/Google Drive/Mon Drive/Litigations/Complaints/"
+other: "~/Google Drive/Mon Drive/Litigations/Other data/"
+cars: "~/Google Drive/Mon Drive/Litigations/CARs/"
+output: "~/Google Drive/Mon Drive/Litigations/"
+figures: "./output/figures/"

@@ -1,0 +1,47 @@
+# Data (too large / proprietary for git)
+data/raw/
+data/processed/
+data/output/
+*.csv
+*.dta
+*.xls
+*.xlsx
+*.parquet
+
+# Keep example config, ignore actual config
+configs/paths.yaml
+!configs/paths.yaml.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output figures (regenerable)
+output/figures/*.png
+output/figures/*.pdf
